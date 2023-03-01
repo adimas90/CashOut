@@ -11,6 +11,35 @@
 		62019F73285126AB001736B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62019F72285126AB001736B5 /* ContentView.swift */; };
 		62019F75285126AC001736B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62019F74285126AC001736B5 /* Assets.xcassets */; };
 		62019F78285126AC001736B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62019F77285126AC001736B5 /* Preview Assets.xcassets */; };
+		62019F862851271D001736B5 /* DetailRekapPengeluaran.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62019F812851271D001736B5 /* DetailRekapPengeluaran.swift */; };
+		62019F872851271D001736B5 /* GrafikPengeluaranBulanan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62019F822851271D001736B5 /* GrafikPengeluaranBulanan.swift */; };
+		62019F882851271D001736B5 /* Beranda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62019F832851271D001736B5 /* Beranda.swift */; };
+		62019F892851271D001736B5 /* RekapEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62019F842851271D001736B5 /* RekapEditView.swift */; };
+		62019F8A2851271D001736B5 /* LaporanPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62019F852851271D001736B5 /* LaporanPage.swift */; };
+		62019F8F2851272C001736B5 /* LihatPengeluaran.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62019F8B2851272C001736B5 /* LihatPengeluaran.swift */; };
+		62019F902851272C001736B5 /* SpeechRecognition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62019F8C2851272C001736B5 /* SpeechRecognition.swift */; };
+		62019F912851272C001736B5 /* TambahkanPengeluaran.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62019F8D2851272C001736B5 /* TambahkanPengeluaran.swift */; };
+		62019F922851272C001736B5 /* EditPengeluaran.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62019F8E2851272C001736B5 /* EditPengeluaran.swift */; };
+		62019F982851274D001736B5 /* RekapsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62019F942851274D001736B5 /* RekapsViewModel.swift */; };
+		62019F992851274D001736B5 /* BooksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62019F952851274D001736B5 /* BooksViewModel.swift */; };
+		62019F9A2851274D001736B5 /* RekapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62019F962851274D001736B5 /* RekapViewModel.swift */; };
+		62019F9B2851274D001736B5 /* BookViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62019F972851274D001736B5 /* BookViewModel.swift */; };
+		62019FA128512760001736B5 /* SwiftUISpeechForNominal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62019F9D28512760001736B5 /* SwiftUISpeechForNominal.swift */; };
+		62019FA228512760001736B5 /* SwiftUISpeech.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62019F9E28512760001736B5 /* SwiftUISpeech.swift */; };
+		62019FA328512760001736B5 /* SpeechButtonForNominal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62019F9F28512760001736B5 /* SpeechButtonForNominal.swift */; };
+		62019FA428512760001736B5 /* SpeechButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62019FA028512760001736B5 /* SpeechButton.swift */; };
+		62019FA82851278A001736B5 /* BookDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62019FA62851278A001736B5 /* BookDetailsView.swift */; };
+		62019FA92851278A001736B5 /* RekapDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62019FA72851278A001736B5 /* RekapDetailsView.swift */; };
+		62019FAD2851279C001736B5 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62019FAB2851279C001736B5 /* Book.swift */; };
+		62019FAE2851279C001736B5 /* Rekap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62019FAC2851279C001736B5 /* Rekap.swift */; };
+		62019FB0285127D8001736B5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 62019FAF285127D8001736B5 /* GoogleService-Info.plist */; };
+		62019FB3285128C3001736B5 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 62019FB2285128C3001736B5 /* FirebaseAuth */; };
+		62019FB5285128C3001736B5 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 62019FB4285128C3001736B5 /* FirebaseAuthCombine-Community */; };
+		62019FB7285128C3001736B5 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 62019FB6285128C3001736B5 /* FirebaseFirestore */; };
+		62019FB9285128C3001736B5 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 62019FB8285128C3001736B5 /* FirebaseFirestoreCombine-Community */; };
+		62019FBB285128C3001736B5 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 62019FBA285128C3001736B5 /* FirebaseFirestoreSwift */; };
+		62019FBE285129BF001736B5 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 62019FBD285129BF001736B5 /* SwiftUICharts */; };
+		62019FC0285169D4001736B5 /* EditRekap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62019FBF285169D4001736B5 /* EditRekap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +48,29 @@
 		62019F72285126AB001736B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		62019F74285126AC001736B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62019F77285126AC001736B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		62019F812851271D001736B5 /* DetailRekapPengeluaran.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailRekapPengeluaran.swift; sourceTree = "<group>"; };
+		62019F822851271D001736B5 /* GrafikPengeluaranBulanan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrafikPengeluaranBulanan.swift; sourceTree = "<group>"; };
+		62019F832851271D001736B5 /* Beranda.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Beranda.swift; sourceTree = "<group>"; };
+		62019F842851271D001736B5 /* RekapEditView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RekapEditView.swift; sourceTree = "<group>"; };
+		62019F852851271D001736B5 /* LaporanPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaporanPage.swift; sourceTree = "<group>"; };
+		62019F8B2851272C001736B5 /* LihatPengeluaran.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LihatPengeluaran.swift; sourceTree = "<group>"; };
+		62019F8C2851272C001736B5 /* SpeechRecognition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechRecognition.swift; sourceTree = "<group>"; };
+		62019F8D2851272C001736B5 /* TambahkanPengeluaran.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TambahkanPengeluaran.swift; sourceTree = "<group>"; };
+		62019F8E2851272C001736B5 /* EditPengeluaran.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditPengeluaran.swift; sourceTree = "<group>"; };
+		62019F942851274D001736B5 /* RekapsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RekapsViewModel.swift; sourceTree = "<group>"; };
+		62019F952851274D001736B5 /* BooksViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BooksViewModel.swift; sourceTree = "<group>"; };
+		62019F962851274D001736B5 /* RekapViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RekapViewModel.swift; sourceTree = "<group>"; };
+		62019F972851274D001736B5 /* BookViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookViewModel.swift; sourceTree = "<group>"; };
+		62019F9D28512760001736B5 /* SwiftUISpeechForNominal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUISpeechForNominal.swift; sourceTree = "<group>"; };
+		62019F9E28512760001736B5 /* SwiftUISpeech.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUISpeech.swift; sourceTree = "<group>"; };
+		62019F9F28512760001736B5 /* SpeechButtonForNominal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechButtonForNominal.swift; sourceTree = "<group>"; };
+		62019FA028512760001736B5 /* SpeechButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechButton.swift; sourceTree = "<group>"; };
+		62019FA62851278A001736B5 /* BookDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookDetailsView.swift; sourceTree = "<group>"; };
+		62019FA72851278A001736B5 /* RekapDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RekapDetailsView.swift; sourceTree = "<group>"; };
+		62019FAB2851279C001736B5 /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		62019FAC2851279C001736B5 /* Rekap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rekap.swift; sourceTree = "<group>"; };
+		62019FAF285127D8001736B5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		62019FBF285169D4001736B5 /* EditRekap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditRekap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +78,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62019FBB285128C3001736B5 /* FirebaseFirestoreSwift in Frameworks */,
+				62019FB3285128C3001736B5 /* FirebaseAuth in Frameworks */,
+				62019FB9285128C3001736B5 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				62019FBE285129BF001736B5 /* SwiftUICharts in Frameworks */,
+				62019FB5285128C3001736B5 /* FirebaseAuthCombine-Community in Frameworks */,
+				62019FB7285128C3001736B5 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +109,15 @@
 		62019F6F285126AB001736B5 /* CashOutt */ = {
 			isa = PBXGroup;
 			children = (
+				62019FAA28512790001736B5 /* Model */,
+				62019FA52851277A001736B5 /* firCon */,
+				62019F932851273A001736B5 /* ViewModel */,
+				62019F8028512709001736B5 /* ViewPengeluaran */,
+				62019F7F285126F4001736B5 /* ViewRekap */,
+				62019F7E285126E8001736B5 /* View */,
 				62019F70285126AB001736B5 /* CashOuttApp.swift */,
 				62019F72285126AB001736B5 /* ContentView.swift */,
+				62019FAF285127D8001736B5 /* GoogleService-Info.plist */,
 				62019F74285126AC001736B5 /* Assets.xcassets */,
 				62019F76285126AC001736B5 /* Preview Content */,
 			);
@@ -65,6 +130,78 @@
 				62019F77285126AC001736B5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		62019F7E285126E8001736B5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		62019F7F285126F4001736B5 /* ViewRekap */ = {
+			isa = PBXGroup;
+			children = (
+				62019F832851271D001736B5 /* Beranda.swift */,
+				62019F812851271D001736B5 /* DetailRekapPengeluaran.swift */,
+				62019F822851271D001736B5 /* GrafikPengeluaranBulanan.swift */,
+				62019F852851271D001736B5 /* LaporanPage.swift */,
+				62019F842851271D001736B5 /* RekapEditView.swift */,
+				62019FBF285169D4001736B5 /* EditRekap.swift */,
+			);
+			path = ViewRekap;
+			sourceTree = "<group>";
+		};
+		62019F8028512709001736B5 /* ViewPengeluaran */ = {
+			isa = PBXGroup;
+			children = (
+				62019F8E2851272C001736B5 /* EditPengeluaran.swift */,
+				62019F8B2851272C001736B5 /* LihatPengeluaran.swift */,
+				62019F8C2851272C001736B5 /* SpeechRecognition.swift */,
+				62019F8D2851272C001736B5 /* TambahkanPengeluaran.swift */,
+			);
+			path = ViewPengeluaran;
+			sourceTree = "<group>";
+		};
+		62019F932851273A001736B5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				62019F9C28512754001736B5 /* Speech */,
+				62019F952851274D001736B5 /* BooksViewModel.swift */,
+				62019F972851274D001736B5 /* BookViewModel.swift */,
+				62019F942851274D001736B5 /* RekapsViewModel.swift */,
+				62019F962851274D001736B5 /* RekapViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		62019F9C28512754001736B5 /* Speech */ = {
+			isa = PBXGroup;
+			children = (
+				62019FA028512760001736B5 /* SpeechButton.swift */,
+				62019F9F28512760001736B5 /* SpeechButtonForNominal.swift */,
+				62019F9E28512760001736B5 /* SwiftUISpeech.swift */,
+				62019F9D28512760001736B5 /* SwiftUISpeechForNominal.swift */,
+			);
+			path = Speech;
+			sourceTree = "<group>";
+		};
+		62019FA52851277A001736B5 /* firCon */ = {
+			isa = PBXGroup;
+			children = (
+				62019FA62851278A001736B5 /* BookDetailsView.swift */,
+				62019FA72851278A001736B5 /* RekapDetailsView.swift */,
+			);
+			path = firCon;
+			sourceTree = "<group>";
+		};
+		62019FAA28512790001736B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				62019FAB2851279C001736B5 /* Book.swift */,
+				62019FAC2851279C001736B5 /* Rekap.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +220,14 @@
 			dependencies = (
 			);
 			name = CashOutt;
+			packageProductDependencies = (
+				62019FB2285128C3001736B5 /* FirebaseAuth */,
+				62019FB4285128C3001736B5 /* FirebaseAuthCombine-Community */,
+				62019FB6285128C3001736B5 /* FirebaseFirestore */,
+				62019FB8285128C3001736B5 /* FirebaseFirestoreCombine-Community */,
+				62019FBA285128C3001736B5 /* FirebaseFirestoreSwift */,
+				62019FBD285129BF001736B5 /* SwiftUICharts */,
+			);
 			productName = CashOutt;
 			productReference = 62019F6D285126AB001736B5 /* CashOutt.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +256,10 @@
 				Base,
 			);
 			mainGroup = 62019F64285126AB001736B5;
+			packageReferences = (
+				62019FB1285128C3001736B5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				62019FBC285129BF001736B5 /* XCRemoteSwiftPackageReference "SwiftUICharts" */,
+			);
 			productRefGroup = 62019F6E285126AB001736B5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +276,7 @@
 			files = (
 				62019F78285126AC001736B5 /* Preview Assets.xcassets in Resources */,
 				62019F75285126AC001736B5 /* Assets.xcassets in Resources */,
+				62019FB0285127D8001736B5 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +287,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62019FA428512760001736B5 /* SpeechButton.swift in Sources */,
+				62019FA128512760001736B5 /* SwiftUISpeechForNominal.swift in Sources */,
+				62019F872851271D001736B5 /* GrafikPengeluaranBulanan.swift in Sources */,
+				62019FC0285169D4001736B5 /* EditRekap.swift in Sources */,
+				62019F8A2851271D001736B5 /* LaporanPage.swift in Sources */,
+				62019FAE2851279C001736B5 /* Rekap.swift in Sources */,
+				62019FA82851278A001736B5 /* BookDetailsView.swift in Sources */,
+				62019F912851272C001736B5 /* TambahkanPengeluaran.swift in Sources */,
+				62019FA328512760001736B5 /* SpeechButtonForNominal.swift in Sources */,
+				62019F882851271D001736B5 /* Beranda.swift in Sources */,
+				62019F922851272C001736B5 /* EditPengeluaran.swift in Sources */,
+				62019FA228512760001736B5 /* SwiftUISpeech.swift in Sources */,
+				62019F9B2851274D001736B5 /* BookViewModel.swift in Sources */,
+				62019F892851271D001736B5 /* RekapEditView.swift in Sources */,
+				62019F9A2851274D001736B5 /* RekapViewModel.swift in Sources */,
+				62019F902851272C001736B5 /* SpeechRecognition.swift in Sources */,
+				62019FAD2851279C001736B5 /* Book.swift in Sources */,
 				62019F73285126AB001736B5 /* ContentView.swift in Sources */,
+				62019F992851274D001736B5 /* BooksViewModel.swift in Sources */,
+				62019FA92851278A001736B5 /* RekapDetailsView.swift in Sources */,
+				62019F8F2851272C001736B5 /* LihatPengeluaran.swift in Sources */,
 				62019F71285126AB001736B5 /* CashOuttApp.swift in Sources */,
+				62019F982851274D001736B5 /* RekapsViewModel.swift in Sources */,
+				62019F862851271D001736B5 /* DetailRekapPengeluaran.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +454,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.catatankeuangan.catatankeuangan.CashOutt;
+				PRODUCT_BUNDLE_IDENTIFIER = com.catatankeuangan.catatankeuangan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -311,7 +483,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.catatankeuangan.catatankeuangan.CashOutt;
+				PRODUCT_BUNDLE_IDENTIFIER = com.catatankeuangan.catatankeuangan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -341,6 +513,58 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		62019FB1285128C3001736B5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		62019FBC285129BF001736B5 /* XCRemoteSwiftPackageReference "SwiftUICharts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AfrazCodes/SwiftUICharts";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		62019FB2285128C3001736B5 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 62019FB1285128C3001736B5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		62019FB4285128C3001736B5 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 62019FB1285128C3001736B5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		62019FB6285128C3001736B5 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 62019FB1285128C3001736B5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		62019FB8285128C3001736B5 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 62019FB1285128C3001736B5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		62019FBA285128C3001736B5 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 62019FB1285128C3001736B5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		62019FBD285129BF001736B5 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 62019FBC285129BF001736B5 /* XCRemoteSwiftPackageReference "SwiftUICharts" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 62019F65285126AB001736B5 /* Project object */;
 }
